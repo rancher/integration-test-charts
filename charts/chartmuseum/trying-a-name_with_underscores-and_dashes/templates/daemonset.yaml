@@ -1,0 +1,32 @@
+apiVersion: apps/v1beta2
+kind: DaemonSet
+metadata:
+  labels:
+    workload.user.cattle.io/workloadselector: daemonSet-default-fah
+  name: i_think_underscores_are_not_allowed
+  namespace: default
+spec:
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      workload.user.cattle.io/workloadselector: daemonSet-default-fah
+  template:
+    metadata:
+      labels:
+        workload.user.cattle.io/workloadselector: daemonSet-default-fah
+    spec:
+      containers:
+      - image: rgardler/fah
+        imagePullPolicy: Always
+        name: i_think_underscores_are_not_allowed
+        resources: {}
+        stdin: true
+        tty: true
+      dnsPolicy: ClusterFirst
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      terminationGracePeriodSeconds: 30
+  updateStrategy:
+    rollingUpdate:
+      maxUnavailable: 1
+    type: RollingUpdate
