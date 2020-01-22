@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   harbor:
   - appVersion: 1.9.4
-    created: "2020-01-21T09:33:11.05134-07:00"
+    created: "2020-01-21T10:14:53.203981-07:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: 2492430f831d95cddd73fb68fd967fbd983b6a66abcb0d78a507068304c837a2
@@ -26,7 +26,7 @@ entries:
     - harbor-1.2.4.tgz
     version: 1.2.4
   - appVersion: 1.7.0
-    created: "2020-01-21T09:33:11.049381-07:00"
+    created: "2020-01-21T10:14:53.202016-07:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: 7d24a18a4a2d82df12f811658a73ca51e8458d939822beaf266cd00cc0d43769
@@ -52,7 +52,7 @@ entries:
   mysql:
   - apiVersion: v1
     appVersion: 5.7.28
-    created: "2020-01-21T09:33:11.051909-07:00"
+    created: "2020-01-21T10:14:53.205629-07:00"
     description: Fast, reliable, scalable, and easy to use open-source relational
       database system.
     digest: c2596a71ac09a1cfffe4772b807d6a359a64612d257b3b4a9c81f231b1f0aad6
@@ -78,29 +78,7 @@ entries:
   mysqlha:
   - apiVersion: v1
     appVersion: 5.7.13
-    created: "2020-01-21T09:33:11.052798-07:00"
-    description: MySQL cluster with a single master and zero or more slave replicas
-    digest: 5db2976ab104136cddeeb5d1a6472d7b89859ed8935479dcb914cb168ada3ea3
-    home: https://www.mysql.com/
-    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
-    keywords:
-    - mysql
-    - database
-    - sql
-    maintainers:
-    - email: helmchart-mysql@jasonpoon.ca
-      name: jpoon
-    - email: jon.bitbucket@livewire-uk.co.uk
-      name: jonhoare
-    - email: urakiny@gmail.com
-      name: aisuko
-    name: mysqlha
-    urls:
-    - mysqlha-0.9.0.tgz
-    version: 0.9.0
-  - apiVersion: v1
-    appVersion: 5.7.13
-    created: "2020-01-21T09:33:11.052387-07:00"
+    created: "2020-01-21T10:14:53.206327-07:00"
     description: MySQL cluster with a single master and zero or more slave replicas
     digest: b6a6bf5cbd12a7d47ac4256c36542f945fb6c813e3bc2ae44c05c4b6c3d4c1a9
     home: https://www.mysql.com/
@@ -120,4 +98,4 @@ entries:
     urls:
     - mysqlha-0.8.0.tgz
     version: 0.8.0
-generated: "2020-01-21T09:33:11.048117-07:00"
+generated: "2020-01-21T10:14:53.196158-07:00"
