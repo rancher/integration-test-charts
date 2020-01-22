@@ -1,5 +1,5 @@
-rancher_min_version: 2.1.0
-rancher_max_version: 2.3.0
+rancher_min_version: 2.2.0
+rancher_max_version: 2.4.0
 labels:
   io.cattle.role: project # options are cluster/project
 questions:
@@ -18,7 +18,7 @@ questions:
     label: Image Repository
     required: true
   - variable: image.tag
-    default: "v0.9.0"
+    default: "v0.11.0"
     description: "Docker image tag"
     type: string
     label: Image Tag
