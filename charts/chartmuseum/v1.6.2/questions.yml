@@ -1,5 +1,5 @@
-rancher_min_version: 2.0.0
-rancher_max_version: 2.2.0
+rancher_min_version: 2.1.0
+rancher_max_version: 2.3.0
 questions:
 - variable: defaultImage
   default: true
@@ -251,7 +251,7 @@ questions:
     default: ""
     description: "If not empty, uses the specified existing PVC instead of creating new one"
     type: pvc
-    label: Existing Persistent Volume for LocalStorage
+    label: Uses Existing Persistent Volume Cliam for LocalStorage
 # Service and L7 LoadBalancer
 - variable: ingress.enabled
   default: true
