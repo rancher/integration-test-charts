@@ -1,5 +1,5 @@
-rancher_min_version: 2.1.0
-rancher_max_version: 2.3.0
+rancher_min_version: 2.0.0
+rancher_max_version: 2.2.0
 labels:
   io.cattle.role: project # options are cluster/project
 questions:
