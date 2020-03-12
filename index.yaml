@@ -1,0 +1,29 @@
+apiVersion: v1
+entries:
+  aks-helloworld:
+  - apiVersion: v1
+    created: 2019-05-27T08:33:22.567132062-07:00
+    description: A Helm chart for Kubernetes
+    digest: f4eb20e7116b24c4825861e6ff6f4303bbe83bcee4a7b2b6ea9fe6929852f34d
+    name: aks-helloworld
+    urls:
+    - file://azure-samples.github.io/helm-charts/aks-helloworld-0.1.0.tgz
+    version: 0.1.0
+  aks-goodbyeworld:
+  - apiVersion: v1
+    created: 2019-05-27T08:33:22.567132062-07:00
+    description: A Helm chart for Kubernetes
+    digest: f4eb20e7116b24c4825861e6ff6f4303bbe83bcee4a7b2b6ea9fe6929852f34d
+    name: aks-goodbyeworld
+    urls:
+    - local://azure-samples.github.io/helm-charts/aks-helloworld-0.1.0.tgz
+    version: 0.1.0
+  azure-vote:
+  - apiVersion: v1
+    created: 2019-05-27T08:33:22.570102626-07:00
+    description: A Helm chart for Kubernetes
+    digest: da054ba832f52ff3e8da26ffe705d6ad6c2ed0818c04588c832c716e8e8d84a7
+    name: azure-vote
+    urls:
+    - https://azure-samples.github.io/helm-charts/azure-vote-0.1.0.tgz
+    version: 0.1.0
